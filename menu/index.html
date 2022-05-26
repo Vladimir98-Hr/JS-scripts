@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+<!--
+    БЭМ - блок эл-т модификатор
+    блок == компонент
+    - поиск
+    - меню
+    - навигация
+    - шапка
+    ....
+    блок состит из эл-тов
+    поиск: (блок)
+      - поле ввода (эл-ты)
+      - кн-ка искать
+    меню:
+      - заголовок
+      - кн-ки фильтры
+      - пункты меню
+
+    Кнопка (эл-т):
+     - красная (модификатор - класс изменяет вид эл-та)
+     - зеленая
+     ....
+-->
+    <section class="menu">
+        <h2 class="menu-title">Our menu</h2>
+        <div class="menu-btns">
+            <button class="filter-btn" type="button" data-category="all">all</button>
+            <button class="filter-btn" type="button" data-category="breakfast">breakfast</button>
+            <button class="filter-btn" type="button" data-category="lunch">lunch</button>
+            <button class="filter-btn" type="button" data-category="shakes">shakes</button>
+        </div>
+        <div class="menu-bloc">
+            
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+<!--
+    БЭМ - блок эл-т модификатор
+    блок == компонент
+    - поиск
+    - меню
+    - навигация
+    - шапка
+    ....
+    блок состит из эл-тов
+    поиск: (блок)
+      - поле ввода (эл-ты)
+      - кн-ка искать
+    меню:
+      - заголовок
+      - кн-ки фильтры
+      - пункты меню
+
+    Кнопка (эл-т):
+     - красная (модификатор - класс изменяет вид эл-та)
+     - зеленая
+     ....
+-->
+    <section class="menu">
+        <h2 class="menu-title">Our menu</h2>
+        <div class="menu-btns">
+            <button class="filter-btn" type="button">all</button>
+            <button class="filter-btn" type="button">breakfast</button>
+            <button class="filter-btn" type="button">lunch</button>
+            <button class="filter-btn" type="button">shakes</button>
+        </div>
+        <div class="menu-bloc">
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-1.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-2.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/items.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-4.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-5.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-6.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-7.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-8.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-9.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="menu-item-image"  src="imgs/item-10.jpeg">
+                <div class="menu-item-info">
+                    <div class="menu-item-header">
+                        <h4 class="menu-item-title">Buttermilk pancakes</h4>
+                        <span class="menu-item-price">$15.99</span>
+                    </div>
+                    <p class="menu-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quod alias beatae dolor natus quidem ipsam laborum quas, similique consequuntur distinctio voluptates aperiam delectus recusandae harum, nulla doloremque autem commodi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
